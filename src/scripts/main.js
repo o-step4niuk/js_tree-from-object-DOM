@@ -25,6 +25,7 @@ function createTree(element, data) {
 
   for (const key of Object.keys(data)) {
     const li = document.createElement('li');
+
     li.textContent = key;
 
     if (Object.keys(data[key]).length > 0) {
